@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory app:title="Auto-Unmute Scheduler">
+        
+        <Preference
+            app:key="pref_time"
+            app:title="Select Time"
+            app:summary="Tap to set scheduled time" />
+            
+        <DropDownPreference
+            app:key="pref_stream_type"
+            app:title="Volume Type"
+            app:summary="Ringtone"
+            app:entries="@array/stream_entries"
+            app:entryValues="@array/stream_values"
+            app:defaultValue="2" />
+            
+        <SeekBarPreference
+            app:key="pref_volume_level"
+            app:title="Volume Level (%)"
+            app:defaultValue="100"
+            android:max="100"
+            app:showSeekBarValue="true" />
+            
+        <SwitchPreferenceCompat
+            app:key="pref_repeat_daily"
+            app:title="Repeat Daily"
+            app:summary="Automatically unmute at this time every day"
+            app:defaultValue="false" />
+            
+        <Preference
+            app:key="pref_schedule_now"
+            app:title="Schedule Now"
+            app:summary="Tap to activate the alarm" />
+            
+    </PreferenceCategory>
+    
+</PreferenceScreen>

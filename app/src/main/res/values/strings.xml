@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unmute it</string>
+    <string name="accessibility_service_description">This service intercepts volume button presses to ensure call volume does not reach 0 unless the down button is held for 8 seconds.</string>
+</resources>

@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bunk.volumeapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+11-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:5:5-80
+11-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:6:5-66
+12-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:7:5-75
+13-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+14-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+15-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:9:5-74
+15-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:9:22-71
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:10:5-77
+16-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+17-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:11:5-85
+17-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:11:22-82
+18
+19    <permission
+19-->[androidx.core:core:1.12.0] C:\Users\Victus\.gradle\caches\8.8\transforms\5753aaf6b2e4f15f80dcf59be4b00e62\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.bunk.volumeapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.12.0] C:\Users\Victus\.gradle\caches\8.8\transforms\5753aaf6b2e4f15f80dcf59be4b00e62\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.12.0] C:\Users\Victus\.gradle\caches\8.8\transforms\5753aaf6b2e4f15f80dcf59be4b00e62\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.bunk.volumeapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.12.0] C:\Users\Victus\.gradle\caches\8.8\transforms\5753aaf6b2e4f15f80dcf59be4b00e62\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.12.0] C:\Users\Victus\.gradle\caches\8.8\transforms\5753aaf6b2e4f15f80dcf59be4b00e62\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:13:5-42:19
+26        android:allowBackup="true"
+26-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\Users\Victus\.gradle\caches\8.8\transforms\5753aaf6b2e4f15f80dcf59be4b00e62\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@android:drawable/sym_def_app_icon"
+30-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:15:9-58
+31        android:label="@string/app_name"
+31-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:16:9-41
+32        android:supportsRtl="true"
+32-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:17:9-35
+33        android:theme="@style/Theme.VolumeOverrideApp" >
+33-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:18:9-55
+34        <activity
+34-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:20:9-24:20
+35            android:name="com.bunk.volumeapp.MainActivity"
+35-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:21:13-41
+36            android:exported="true"
+36-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:22:13-36
+37            android:label="@string/app_name" >
+37-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:23:13-45
+38        </activity>
+39
+40        <service
+40-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:26:9-36:19
+41            android:name="com.bunk.volumeapp.VolumeAccessibilityService"
+41-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:27:13-55
+42            android:exported="true"
+42-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:29:13-36
+43            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+43-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:28:13-79
+44            <intent-filter>
+44-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:30:13-32:29
+45                <action android:name="android.accessibilityservice.AccessibilityService" />
+45-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:31:17-92
+45-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:31:25-89
+46            </intent-filter>
+47
+48            <meta-data
+48-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:33:13-35:72
+49                android:name="android.accessibilityservice"
+49-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:34:17-60
+50                android:resource="@xml/accessibility_service_config" />
+50-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:35:17-69
+51        </service>
+52
+53        <receiver
+53-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:38:9-40:40
+54            android:name="com.bunk.volumeapp.VolumeSchedulerReceiver"
+54-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:39:13-52
+55            android:exported="false" />
+55-->D:\bunk bssid\VolumeOverrideApp\app\src\main\AndroidManifest.xml:40:13-37
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.bunk.volumeapp.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Victus\.gradle\caches\8.8\transforms\50067900276223582d25e72e8f50643b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Victus\.gradle\caches\8.8\transforms\01993ac96896f1a2080a9312f777e966\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Victus\.gradle\caches\8.8\transforms\01993ac96896f1a2080a9312f777e966\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Victus\.gradle\caches\8.8\transforms\01993ac96896f1a2080a9312f777e966\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0] C:\Users\Victus\.gradle\caches\8.8\transforms\494aec71010b0621da840867b6261c95\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0] C:\Users\Victus\.gradle\caches\8.8\transforms\494aec71010b0621da840867b6261c95\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0] C:\Users\Victus\.gradle\caches\8.8\transforms\494aec71010b0621da840867b6261c95\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0] C:\Users\Victus\.gradle\caches\8.8\transforms\494aec71010b0621da840867b6261c95\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0] C:\Users\Victus\.gradle\caches\8.8\transforms\494aec71010b0621da840867b6261c95\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0] C:\Users\Victus\.gradle\caches\8.8\transforms\494aec71010b0621da840867b6261c95\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Victus\.gradle\caches\8.8\transforms\9f6bfc86b2e36cfa78ae7d4a7d0259fa\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.8\\com.bunk.volumeapp-merged_res-40:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.8\\com.bunk.volumeapp-main-42:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.bunk.volumeapp-merged_res-40:/xml_preferences.xml.flat",
+        "source": "com.bunk.volumeapp-main-42:/xml/preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victus\\.gradle\\daemon\\8.8\\com.bunk.volumeapp-merged_res-40:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\Victus\\.gradle\\daemon\\8.8\\com.bunk.volumeapp-main-42:\\xml\\preferences.xml"
+    }
+]

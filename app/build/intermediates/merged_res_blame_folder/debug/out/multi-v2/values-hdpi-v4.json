@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bunk.volumeapp-mergeDebugResources-38:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Victus\\.gradle\\caches\\8.8\\transforms\\bfe93f0a4438fa93e1d110f2563df31b\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

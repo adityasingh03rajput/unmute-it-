@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stream_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+        <item>Call</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="stream_values">
+        <item>2</item> 
+        <item>3</item> 
+        <item>0</item> 
+        <item>4</item> 
+    </string-array>
+    <string name="accessibility_service_description">This service intercepts volume button presses to ensure call volume does not reach 0 unless the down button is held for 8 seconds.</string>
+    <string name="app_name">Unmute it</string>
+    <style name="Theme.VolumeOverrideApp" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

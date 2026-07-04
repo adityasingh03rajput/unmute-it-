@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bunk.volumeapp-mergeDebugResources-38:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Victus\\.gradle\\caches\\8.8\\transforms\\bfe93f0a4438fa93e1d110f2563df31b\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
